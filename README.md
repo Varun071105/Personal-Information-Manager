@@ -1,7 +1,4 @@
-Here's a comprehensive, visually appealing README.md for your Personal Information Manager project:
-
-```markdown
-# 🧠 Personal Information Manager (PIM)
+#🧠 Personal Information Manager (PIM)
 
 A powerful yet lightweight Personal Information Manager built with Python 🐍 and Flask to help you organize your contacts, notes, and important info — all in one beautiful web interface!
 
