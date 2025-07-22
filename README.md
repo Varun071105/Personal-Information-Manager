@@ -2,7 +2,6 @@
 
 A powerful yet lightweight Personal Information Manager built with Python 🐍 and Flask to help you organize your contacts, notes, and important info — all in one beautiful web interface!
 
-![Demo Screenshot](https://via.placeholder.com/800x400?text=Personal+Information+Manager+Screenshot) *(replace with actual screenshot later)*
 
 ## 🚀 Key Features
 
