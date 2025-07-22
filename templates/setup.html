@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Set Master Password</h2>
+<form method="POST">
+    <input type="password" name="password" placeholder="Master Password" required>
+    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+    <button type="submit">Create Vault</button>
+</form>
+{% endblock %}

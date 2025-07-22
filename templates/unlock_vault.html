@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="auth-container">
+    <div class="auth-box">
+        <h2>Unlock Your Vault</h2>
+        <p>Enter your master password to access sensitive data</p>
+        
+        <div class="form-group">
+            <label for="password">Master Password</label>
+            <input type="password" id="password" class="form-control" autocomplete="current-password">
+        </div>
+
+        <button id="unlock-btn" class="btn btn-primary">Unlock Vault</button>
+        
+        <div id="error-message" class="alert alert-danger" style="display: none;"></div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='unlock_vault.js') }}"></script>
+{% endblock %}
